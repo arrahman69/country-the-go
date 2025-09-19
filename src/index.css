@@ -1,0 +1,44 @@
+body{
+    background: #000;
+    box-sizing: border-box;
+}
+p{
+    color: cyan;
+}
+h1{
+color: hotpink;
+}
+.card{
+    color: rgb(250, 1, 250);
+}
+.c-abba{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.l-abba{
+    background: #161515;
+    border: 2px solid rgba(56, 56, 56, 0.925);
+    width: 100%;
+}
+#www{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.9s;
+    background-color: cornflowerblue;
+    color: white;
+}
+button:hover{background-color:rgb(6, 6, 223) ;
+    border: 1px solid white;
+}
+.ccc{
+    color: lightcoral;
+}
